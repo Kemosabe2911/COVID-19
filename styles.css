@@ -62,7 +62,15 @@ nav a:hover{
 .blk-light{
     background-color: #D9D6CF;
 }
+.home1{
+    display: flex;
+}
 .home-info{
     width: 70%;
     margin-left: 10vh;
+}
+.home-img{
+    width: 20%;
+    padding: 1vh;
+    padding-top: 8vh;
 }
