@@ -90,6 +90,16 @@ nav a:hover{
     text-transform: uppercase;
     font-weight: bold;
 }
+.sft-body h3{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 .sft-body li{
     line-height: 5vh;
+}
+.sft-body img{
+    width: 60%;
+    height: 30%;
+    margin-left: 20%;
 }
