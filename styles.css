@@ -8,11 +8,33 @@ header{
     margin: 0 ;
     background-color: #733380;
 }
+.container .ttle{
+    margin: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 3vh;
+}
 .container{
     margin: 0 auto;
     width: 100%;
     height: 10vh;
     background-color: #733380;
+}
+.container nav ul li .ttle{
+    margin: 0;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    margin-right: 40vh;
+    margin-top: -1.1vh;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+.container nav ul h1{
+    text-align: center;
+    text-transform: uppercase;
 }
 nav ul{
     margin: 0;
@@ -31,7 +53,7 @@ nav a{
     color: #ffffff;
     display: block;
     block-size: auto;
-    font-size: 18px;
+    font-size: 19px;
     padding: 1vh;
     margin-top: 1.5vh;
     margin-bottom: 1vh;
