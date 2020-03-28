@@ -139,6 +139,49 @@ nav a:hover{
     height: 30%;
     margin-left: 20%;
 }
+
+/*Footer*/
+footer{
+    background: #733380;
+    color: #ffffff;
+}
+footer .contact{
+    text-align: center;
+    font-size: 2.3em;
+    padding-top: 2vh;
+    padding-left: 3vh;
+}
+footer .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1em;
+}
+footer .social ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+}
+footer .social ul li{
+    padding: 0.3vh 3vh 0 0;
+    color: #ffffff;
+    font-size: 1.3em;
+}
+footer i{
+    color: #ffffff;
+}
+footer .fa-facebook{
+    padding-left: -1.5vh;
+}
+footer .copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Media Queries*/
 @media (max-width: 768px){
     .home1{
         flex-direction: column;
