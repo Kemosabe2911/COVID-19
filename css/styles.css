@@ -232,5 +232,10 @@ footer .copy{
     .stats-bdy{
         flex-direction: column;
     }
+    .sft-body img{
+        width: 80%;
+        height: 50%;
+        margin-left: 0.8vh;
+    }
 
 }
