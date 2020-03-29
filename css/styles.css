@@ -228,4 +228,11 @@ footer .copy{
     nav .frst{
         margin-left: 30%;
     }
+    .stats-bdy{
+        flex-direction: column;
+    }
+    .stats-ttle{
+        text-align: center;
+        padding-left: -6vh;
+    }
 }
