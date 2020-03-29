@@ -194,12 +194,14 @@ nav a:hover{
     border: 2px solid #733380;
 }
 .srch-container #btn{
-    width: 10%;
-    height: 5vh;
-    border-radius: 20px;
-    border: 2px solid;
+    font-size: 22px;
+    height: 6vh;
+    width: 6vh;
+    border-radius: 85%;
+    border: 2px solid #733380;
     color: #ffffff;
     background: #733380;
+    margin-left: 2vh;
 }
 /*Footer*/
 footer{
