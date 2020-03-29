@@ -203,6 +203,12 @@ nav a:hover{
     background: #733380;
     margin-left: 2vh;
 }
+.srch-container #btn:hover{
+    color: #733380;
+    background-color: #ffffff;
+}
+
+
 /*Footer*/
 footer{
     background: #733380;
