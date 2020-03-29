@@ -173,7 +173,34 @@ nav a:hover{
     padding: 0vh 5vh;
     color: blue;
 }
-
+/*Stats-search*/
+.srch-ttle{
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.srch-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+.srch-container #srch{
+    width: 30%;
+    height: 5vh;
+    border-radius: 20px;
+    border: 2px solid #733380;
+}
+.srch-container #btn{
+    width: 10%;
+    height: 5vh;
+    border-radius: 20px;
+    border: 2px solid;
+    color: #ffffff;
+    background: #733380;
+}
 /*Footer*/
 footer{
     background: #733380;
