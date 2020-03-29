@@ -138,6 +138,41 @@ nav a:hover{
     margin-left: 20%;
 }
 
+
+/*Stats*/
+.stats-ttle{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-left: 6vh;
+}
+.stats-bdy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    text-align: center;
+}
+.stats-bdy i{
+    text-align: center;
+    font-size: 3em;
+}
+.stats-bdy .conf{
+    text-align: center;
+    padding: 0vh 5vh;
+    color: red;
+}
+.stats-bdy .recov{
+    padding: 0vh 5vh;
+    color: green;
+}
+.stats-bdy .deaths{
+    padding: 0vh 5vh;
+    color: blue;
+}
+
 /*Footer*/
 footer{
     background: #733380;
