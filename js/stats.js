@@ -4,14 +4,17 @@ var y= document.getElementById('result');
 b.addEventListener("click",search);
 function search(){
     checkEmpty();
-    fetchAPI();
 }
 function checkEmpty(){
     if(a.value===''){
     alert('Enter Search');
     }
+    else{
+        fetchAPI();
+    }
 }
 function fetchAPI(){
+    document.getElementById("gal").style.display="none";
     fetch("https://covid-19-data.p.rapidapi.com/country?format=undefined&name="+ a.value, {
 	"method": "GET",
 	"headers": {

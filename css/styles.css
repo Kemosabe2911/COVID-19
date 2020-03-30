@@ -245,8 +245,38 @@ nav a:hover{
     color: blue;
 }
 
-
-
+/*Gallery*/
+.gallery h1{
+    margin-top: 3vh;
+    text-align: center;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: #733380;
+}
+.gallery-1{
+    display: flex;
+}
+.gallery-1 img{
+    width: 33.3%;
+    height: 50vh;
+}
+.gallery-2{
+    display: flex;
+}
+.gallery-2 img{
+    width: 100%;
+    height: 60vh;
+}
+.gallery-3{
+    display: flex;
+    height: 55vh;
+}
+.gallery-3 .a{
+    width: 30%;
+}
+.gallery-3 .b{
+    width: 70%;
+}
 
 /*Footer*/
 footer{
