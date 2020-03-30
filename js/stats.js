@@ -109,8 +109,9 @@ function fetchChart(){
         options:{
             title:{
                 display: true,
-                text: 'Covid-19 Stats',
-                fontSize: 25
+                text: 'COVID-19 STATS',
+                fontSize: 30,
+                fontColor: '#733380'
             },
             legend:{
                 position: 'bottom',

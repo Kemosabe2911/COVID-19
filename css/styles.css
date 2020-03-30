@@ -284,6 +284,7 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    transition: 0.2s;
 }
 
 /*Footer*/
