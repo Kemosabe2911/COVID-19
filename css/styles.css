@@ -279,7 +279,12 @@ nav a:hover{
 }
 
 /*Chart*/
-
+.chart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 /*Footer*/
 footer{
@@ -344,6 +349,9 @@ footer .copy{
         width: 80%;
         height: 50%;
         margin-left: 0.8vh;
+    }
+    .stats-rst{
+        flex-direction: column;
     }
 
 }
