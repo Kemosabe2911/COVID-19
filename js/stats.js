@@ -11,6 +11,7 @@ function checkEmpty(){
     }
     else{
         fetchAPI();
+        fetchChart();
     }
 }
 function fetchAPI(){
@@ -24,7 +25,6 @@ function fetchAPI(){
 })
 .then(response => response.json())
 .then(data => {
-    console.log(data[0].confirmed);
     let output=`
     <h1 class="cntry">${a.value}</h1>
     <div class="stats-rst">
@@ -51,6 +51,77 @@ function fetchAPI(){
     </div>
     `;
     y.innerHTML= output;
+})
+.catch(err => {
+	console.log(err);
+});
+}
+function fetchChart(){
+    fetch("https://covid-19-data.p.rapidapi.com/country?format=undefined&name="+ a.value, {
+	"method": "GET",
+	"headers": {
+		"x-rapidapi-host": "covid-19-data.p.rapidapi.com",
+		"x-rapidapi-key": "225859193cmshd3c0854db9f9a0ap1bdb18jsna2317bf7d964"
+	}
+})
+.then(response => response.json())
+.then(data => {
+    console.log(data);
+    let myC= document.getElementById('myChart').getContext('2d');
+    Chart.defaults.global.defaultFontColor= '#000';
+    Chart.defaults.global.defaultHeight= 30;
+    let chrt= new Chart(myChart, {
+        type: 'pie',
+        data:{
+            labels: ['Confirmed','Recovered','Critical','Deaths'],
+            datasets: [{
+                label: 'Population',
+                data: [ `${data[0].confirmed}` , `${data[0].recovered}`, `${data[0].critical}`, `${data[0].deaths}`],
+                backgroundColor: [
+                    'red','green','yellow','blue'
+                ],
+                borderWidth: 3,
+                borderColor: '#777',
+                outerWidth: 30
+            }]
+            /*datasets: [{
+                label: 'Confirmed',
+                data: [ `${data[0].confirmed}`],
+                backgroundColor: 'red',
+                },
+                {
+                    label: 'Recovered',
+                    data :[`${data[0].recovered}`];
+                    backgroundColor: 'green'
+                },
+                {
+                    label: 'Critical',
+                    data: [`${data[0].critical}`],
+                    backgroundColor: 'yellow'
+                },
+                {
+                    label: 'Deaths',
+                    data: [`${data[0].deaths}`],
+                    backgroundColor: 'blue'
+                }
+            ]*/
+        },
+        options:{
+            title:{
+                display: true,
+                text: 'Covid-19 Stats',
+                fontSize: 25
+            },
+            legend:{
+                position: 'bottom',
+                labels:{
+                    fontFamily: 'Lato',
+                    fontWeight: 'bold',
+                    fontSize: 25
+                }
+            }
+        }
+    })
 })
 .catch(err => {
 	console.log(err);
