@@ -192,6 +192,8 @@ nav a:hover{
     height: 5vh;
     border-radius: 20px;
     border: 2px solid #733380;
+    font-size: 1.2em;
+    padding-left: 2vh;
 }
 .srch-container #btn{
     font-size: 22px;
@@ -207,6 +209,43 @@ nav a:hover{
     color: #733380;
     background-color: #ffffff;
 }
+
+/*Stats-Country*/
+.cntry{
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #733380;
+}
+.stats-rst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    text-align: center;
+}
+.stats-rst i{
+    text-align: center;
+    font-size: 3em;
+}
+.stats-rst .conf{
+    padding: 0vh 3vh;
+    color: red;
+}
+.stats-rst .recov{
+    padding: 0vh 3vh;
+    color: green;
+}
+.stats-rst .crit{
+    padding: 0vh 3vh;
+    color: rgb(212, 212, 6);
+}
+.stats-rst .deaths{
+    padding: 0vh 3vh;
+    color: blue;
+}
+
+
 
 
 /*Footer*/
