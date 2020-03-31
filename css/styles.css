@@ -58,7 +58,7 @@ nav a{
     justify-content: right;
 }
 nav .frst{
-    margin-left: 50%;
+    margin-left: 45%;
 }
 nav .active{
     /*background: #650479;*/
@@ -68,8 +68,18 @@ nav a:hover{
     opacity: 0.8;
 }
 .toggle{
+    display : none;
+    color: #ffffff;
+    font-size: 2em;
+    float: right;
+    margin-top: -4vh;
+    z-index: 1;
+}
+#check{
     display: none;
 }
+/*End Nav */
+
 .img-container{
     background: url('https://indianomics.co.in/wp-content/uploads/2020/03/Stay-Safe-Novel-Coronavirus-COVID-19.png') no-repeat;
     height: 60vh;
@@ -286,7 +296,10 @@ nav a:hover{
     flex-wrap: wrap;
     transition: 0.2s;
 }
-
+#mychart{
+    width: 80vh;
+    height: 80vh;
+}
 /*Footer*/
 footer{
     background: #733380;
