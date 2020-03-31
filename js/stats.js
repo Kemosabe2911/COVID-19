@@ -57,6 +57,7 @@ function fetchAPI(){
 });
 }
 function fetchChart(){
+    let ch= document.getElementsByClassName('chart');
     fetch("https://covid-19-data.p.rapidapi.com/country?format=undefined&name="+ a.value, {
 	"method": "GET",
 	"headers": {
@@ -75,7 +76,7 @@ function fetchChart(){
         data:{
             labels: ['Confirmed','Recovered','Critical','Deaths'],
             datasets: [{
-                label: 'Population',
+                label: ['Population'],
                 data: [ `${data[0].confirmed}` , `${data[0].recovered}`, `${data[0].critical}`, `${data[0].deaths}`],
                 backgroundColor: [
                     'red','green','yellow','blue'

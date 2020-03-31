@@ -328,6 +328,10 @@ footer .copy{
     justify-content: center;
     align-items: center;
 }
+footer .copy a{
+    color: #ffffff;
+    font-size: 1.2em;
+}
 
 /*Media Queries*/
 @media (max-width: 768px){
