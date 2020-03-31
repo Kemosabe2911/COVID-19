@@ -18,29 +18,33 @@ header{
 .container{
     margin: 0 auto;
     width: 100%;
-    height: 10vh;
+    height: 15vh;
     background-color: #733380;
 }
-
+ .container nav{
+    display: flex;
+    justify-content: center;
+ }
+ .container .ttle{
+     color: #ffffff;
+     display: flex;
+     justify-content: center;
+     font-size: 3em;
+     text-transform: uppercase;
+     font-weight: bold;
+ }
 nav ul{
     margin: 0;
     list-style: none;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10vh;
     /*justify-content: right;*/
 }
 nav ul li{
     text-align: center;
     padding: 1vh;
-    margin-right: 2vh;
-}
-nav .ttle{
-    /*margin-right: 100vh;*/
-    padding-top: 1.3vh;
-    color: #ffffff;
-    font-size: 30px;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
 }
 nav a{
     text-decoration: none;
@@ -48,21 +52,17 @@ nav a{
     color: #ffffff;
     display: block;
     block-size: auto;
-    font-size: 19px;
-    padding: 1vh;
+    font-size: 1.5em;
+    padding: 2vh;
     padding-top: 0.1vh;
     padding-bottom: -0.1vh;
     margin-top: 2vh;
     margin-bottom: 1vh;
-    align-items: right;
-    justify-content: right;
-}
-nav .frst{
-    margin-left: 45%;
 }
 nav .active{
     /*background: #650479;*/
     font-weight: bold;
+    font-size: 1.3em;
 }
 nav a:hover{
     opacity: 0.8;
