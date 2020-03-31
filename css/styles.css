@@ -29,10 +29,11 @@ header{
      color: #ffffff;
      display: flex;
      justify-content: center;
-     font-size: 3em;
+     font-size: 2.8em;
      text-transform: uppercase;
      font-weight: bold;
- }
+     font-family: 'Anton', sans-serif;
+}
 nav ul{
     margin: 0;
     list-style: none;
@@ -52,11 +53,11 @@ nav a{
     color: #ffffff;
     display: block;
     block-size: auto;
-    font-size: 1.5em;
+    font-size: 1.4em;
     padding: 2vh;
     padding-top: 0.1vh;
     padding-bottom: -0.1vh;
-    margin-top: 2vh;
+    margin-top: 1vh;
     margin-bottom: 1vh;
 }
 nav .active{
@@ -67,12 +68,9 @@ nav .active{
 nav a:hover{
     opacity: 0.8;
 }
-.toggle{
-    display : none;
+#toggle{
     color: #ffffff;
     font-size: 2em;
-    float: right;
-    margin-top: -4vh;
     z-index: 1;
 }
 #check{
