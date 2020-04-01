@@ -9,6 +9,7 @@ window.addEventListener('scroll',function(){
     b.style.opacity= value2;
 });*/
 
+
 var x= document.getElementById('bd').addEventListener('load',fetchAPI());
 var y= document.getElementById('stats');
 function fetchAPI(){

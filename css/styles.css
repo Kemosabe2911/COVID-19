@@ -72,10 +72,9 @@ nav a:hover{
     color: #ffffff;
     font-size: 2em;
     z-index: 1;
-}
-#check{
     display: none;
 }
+
 /*End Nav */
 
 .img-container{
@@ -368,6 +367,17 @@ footer .copy a{
     }
     .stats-rst{
         flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+        display: none;
+    }
+    nav #toggle{
+        display: flex;
+        justify-content: right;
+        align-items: right;
+        text-align: right;
+        float: right;
     }
 
 }
