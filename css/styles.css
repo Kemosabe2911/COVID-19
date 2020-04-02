@@ -402,6 +402,9 @@ footer .copy a{
     .stats-rst{
         flex-direction: column;
     }
+    .srch-container #srch{
+        width: 50%;
+    }
 
 }
 @media (min-width: 768px){
