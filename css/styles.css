@@ -126,6 +126,7 @@ nav a:hover{
 }
 .home1{
     display: flex;
+    padding-top: 2vh;
 }
 .home-info{
     width: 70%;
@@ -144,6 +145,7 @@ nav a:hover{
     text-decoration: underline;
     text-transform: uppercase;
     font-size: 30px;
+    padding-top: 5vh;
 }
 .sft-body{
     width: 70%;
@@ -151,6 +153,7 @@ nav a:hover{
     font-size: 20px;
 }
 .sft-body h2{
+    padding-top: 3vh;
     font-size: 28px;
     text-transform: uppercase;
     font-weight: bold;
@@ -164,6 +167,7 @@ nav a:hover{
     line-height: 5vh;
 }
 .sft-body img{
+    padding-top: 3vh;
     width: 60%;
     height: 30%;
     margin-left: 20%;
@@ -178,6 +182,7 @@ nav a:hover{
     text-transform: uppercase;
     text-decoration: underline;
     padding-left: 3vh;
+    padding-top: 3vh;
 }
 .stats-bdy{
     display: flex;
@@ -185,24 +190,29 @@ nav a:hover{
     align-items: center;
     font-size: 2em;
     text-align: center;
+    padding-top: 2vh;
 }
 .stats-bdy i{
     text-align: center;
     font-size: 3em;
+    padding-top: 2vh;
 }
 .stats-bdy .conf{
     text-align: center;
-    padding: 0vh 5vh;
+    padding: 5vh 5vh;
     margin-left: -2vh;
     color: red;
 }
 .stats-bdy .recov{
-    padding: 0vh 5vh;
+    padding: 5vh 5vh;
     color: green;
 }
 .stats-bdy .deaths{
-    padding: 0vh 5vh;
+    padding: 5vh 5vh;
     color: blue;
+}
+.stats-bdy h4{
+    padding-top: 2vh;
 }
 /*Stats-search*/
 .srch-ttle{
@@ -254,10 +264,12 @@ nav a:hover{
     align-items: center;
     font-size: 2.5em;
     text-align: center;
+    padding-top: 2vh;
 }
 .stats-rst i{
     text-align: center;
     font-size: 3em;
+    padding: 2vh;
 }
 .stats-rst .conf{
     padding: 0vh 3vh;
@@ -316,6 +328,7 @@ nav a:hover{
     align-items: center;
     flex-wrap: wrap;
     transition: 0.2s;
+    padding-top: 3vh;
 }
 #mychart{
     width: 80vh;
