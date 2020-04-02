@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body{
     margin: 0;
     padding: 0;
@@ -8,7 +13,7 @@ header{
     margin: 0 ;
     background-color: #733380;
 }
-.container .ttle{
+/*.container .ttle{
     margin: 0;
     display: flex;
     justify-content: left;
@@ -24,22 +29,44 @@ header{
  .container nav{
     display: flex;
     justify-content: center;
- }
- .container .ttle{
+ }*/
+
+.ttle{
      color: #ffffff;
-     display: flex;
-     justify-content: center;
-     font-size: 2.8em;
+     font-size: 2em;
      text-transform: uppercase;
      font-weight: bold;
      font-family: 'Anton', sans-serif;
+     order: 1;
+     text-align: center;
+}
+#list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.toggle{
+    order: 1;
+    text-align: right;
+    margin-right: -10vh;
+}
+.item{
+    width: 100%;
+    text-align: center;
+    order: 2;
+    display: none;
+}
+.item.res{
+    display: block;
+}
+nav{
+    background: #733380;
+    padding: 5px 20px;
 }
 nav ul{
     margin: 0;
     list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-right: 10vh;
     /*justify-content: right;*/
 }
@@ -68,13 +95,10 @@ nav .active{
 nav a:hover{
     opacity: 0.8;
 }
-#toggle{
+.bars{
     color: #ffffff;
-    font-size: 2em;
-    z-index: 1;
-    display: none;
+    font-size: 1.8em;
 }
-
 /*End Nav */
 
 .img-container{
@@ -354,9 +378,6 @@ footer .copy a{
     body{
         overflow-x: hidden;
     }
-    nav .frst{
-        margin-left: 30%;
-    }
     .stats-bdy{
         flex-direction: column;
     }
@@ -368,16 +389,24 @@ footer .copy a{
     .stats-rst{
         flex-direction: column;
     }
-    nav ul{
-        flex-direction: column;
+
+}
+@media (min-width: 768px){
+    .item{
+        display: block;
+        width: auto;
+    }
+    .toggle{
         display: none;
     }
-    nav #toggle{
-        display: flex;
-        justify-content: right;
-        align-items: right;
-        text-align: right;
-        float: right;
+    .ttle{
+        order: 0;
+        flex: 4;
+        text-align: left;
     }
-
+    .item{
+        order: 1;
+        flex: 1;
+    }
+    
 }
