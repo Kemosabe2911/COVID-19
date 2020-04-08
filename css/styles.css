@@ -405,7 +405,21 @@ footer .copy a{
     .srch-container #srch{
         width: 50%;
     }
-
+    .gallery-1{
+        flex-direction: column;
+    }
+    .gallery-1 img{
+        width: 100%;
+    }
+    .gallery-3{
+        flex-direction: column;
+    }
+    .gallery-3 .b{
+        width: 100%;
+    }
+    .gallery-3 .a{
+        display: none;
+    }
 }
 @media (min-width: 768px){
     .item{
