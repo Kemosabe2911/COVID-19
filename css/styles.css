@@ -336,6 +336,21 @@ nav a:hover{
 }
 
 /*About*/
+.abt-h1{
+    font-size: 2.5em;
+    text-align: center;
+    color: #733380;
+    padding-top: 2vh;
+    text-transform: uppercase;
+}
+.abt-header{
+    font-size: 1.5em;
+    text-align: center;
+    color: #000000;
+    padding-top: 3vh;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
 .abt-container{
     width: 60%;
     margin-left: 20%;
