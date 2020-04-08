@@ -371,9 +371,9 @@ nav a:hover{
     text-align: center;
     justify-content: center;
     align-items: center;
+    font-size: 1.8em;
 }
 .abt-container a{
-    font-size: 2em;
     text-decoration: none;
     color: #ffffff;
     border: 1px solid #4A646C;
@@ -386,6 +386,7 @@ nav a:hover{
 }
 .abt-container .link2{
     display: none;
+    font-size: 1.3em;
 }
 /*Footer*/
 footer{
@@ -479,7 +480,7 @@ footer .copy a{
     }
     .abt-container img{
         justify-content: center;
-        padding-right: 5vh;
+        padding-right: 10vh;
     }
     .abt-container .link{
         display: none;
