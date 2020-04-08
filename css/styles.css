@@ -457,7 +457,8 @@ footer .copy a{
         flex-direction: column;
     }
     .srch-container #srch{
-        width: 50%;
+        width: 60%;
+        height: 6vh;
     }
     .gallery-1{
         flex-direction: column;
