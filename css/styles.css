@@ -334,6 +334,44 @@ nav a:hover{
     width: 80vh;
     height: 80vh;
 }
+
+/*About*/
+.abt-container{
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    margin-top: 3vh;
+    background: #D9D6CF;
+}
+.abt-container img{
+    width: 35vh;
+    height: 30vh;
+    padding-left: 10vh;
+    padding-top: 5vh;
+}
+.abt-container .link{
+    padding: 15vh 15vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.abt-container a{
+    font-size: 2em;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #4A646C;
+    background-color: #A6A6A6;
+    padding: 1vh;
+    border-radius: 20px;
+}
+.abt-container a:hover{
+    opacity: 0.8;
+}
+.abt-container .link2{
+    display: none;
+}
 /*Footer*/
 footer{
     background: #733380;
@@ -419,6 +457,22 @@ footer .copy a{
     }
     .gallery-3 .a{
         display: none;
+    }
+    .abt-container{
+        flex-direction: column;
+        
+    }
+    .abt-container img{
+        justify-content: center;
+        padding-right: 5vh;
+    }
+    .abt-container .link{
+        display: none;
+    }
+    .abt-container .link2{
+        display: block;
+        padding: 5vh;
+        text-align: center;
     }
 }
 @media (min-width: 768px){
