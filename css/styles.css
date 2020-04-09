@@ -503,7 +503,18 @@ footer .copy a{
     .home-img img{
         margin-left: -5vh;
     }
+    .sft-body{
+        font-size: 18px;
+        width: 100%;
+        margin-left: 3vh;
+    }
+    .sft-body img{
+        margin-left: 5vh;
+    }
 }
+
+
+
 @media (min-width: 768px){
     .item{
         display: block;
