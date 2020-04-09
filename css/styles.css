@@ -499,7 +499,9 @@ footer .copy a{
     }
     .home-img{
         width: 80%;
-        margin-left: 20%;
+    }
+    .home-img img{
+        margin-left: -5vh;
     }
 }
 @media (min-width: 768px){
