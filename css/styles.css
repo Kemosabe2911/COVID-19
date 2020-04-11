@@ -391,6 +391,7 @@ nav a:hover{
 .abt-info{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 15vh;
 }
 .abt-info .box{
@@ -401,7 +402,6 @@ nav a:hover{
     color: #000000;
     background-color: #ffffff;
     transition: 0.5s;
-    
 }
 .abt-info .box:hover{
     background:  #C8C8CD;
@@ -573,6 +573,18 @@ footer .copy a{
     }
     .sft-body img{
         margin-left: 5vh;
+    }
+    .abt-info{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .abt-info .box{
+        margin: 3vh 0vh;
+        height: 40vh;
+    }
+    .abt-info .box1{
+        height: 50vh;
+        justify-content: center;
     }
 }
 
