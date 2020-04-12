@@ -403,6 +403,12 @@ nav a:hover{
     background-color: #ffffff;
     transition: 0.5s;
 }
+.abt-info .border-red{
+    border-color: #ED0A3F;
+}
+.abt-info .border-green{
+    border-color: #299617;
+}
 .abt-info .box:hover{
     background:  #C8C8CD;
     border-radius: 20px;
@@ -423,6 +429,12 @@ nav a:hover{
 }
 .abt-info .content .help{
     border-top: 6px solid #000000;
+}
+.abt-info .content .a1{
+    border-color: #ED0A3F;
+}
+.abt-info .content .a3{
+    border-color: #299617;
 }
 .abt-info .content a{
     text-decoration: none;
