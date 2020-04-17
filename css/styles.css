@@ -533,6 +533,7 @@ footer .copy a{
     font-size: 2.3em;
     text-decoration: underline;
     text-transform: uppercase;
+    margin-left: 3em;
     color: #733380;
     padding: 2px;
 }
@@ -549,7 +550,7 @@ footer .copy a{
 .mal .mal-channels .m-ch1{
     width: 15em;
     height: 15em;
-    margin: 5em;
+    margin: 3em 5em;
 }
 .mal .m-ch1 img{
     width: 15em;
