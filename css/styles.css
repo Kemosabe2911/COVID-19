@@ -524,6 +524,40 @@ footer .copy a{
     font-size: 1.2em;
 }
 
+/*News*/
+.mal{
+    margin-top: 2em;
+    margin-left: 2em;
+}
+.mal h2{
+    font-size: 2.3em;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #733380;
+    padding: 2px;
+}
+.mal .mal-channels{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mal .mal-channels .ch1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mal .mal-channels .m-ch1{
+    width: 15em;
+    height: 15em;
+    margin: 5em;
+}
+.mal .m-ch1 img{
+    width: 15em;
+    height: 15em;
+    align-items: center;
+    border: 2px solid #000000;
+    margin: 2px;
+}
 /*Media Queries*/
 @media (max-width: 768px){
     .home1{
