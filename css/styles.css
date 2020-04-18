@@ -538,9 +538,9 @@ footer .copy a{
     padding: 2px;
 }
 .mal .mal-channels{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 3em;
 }
 .mal .mal-channels .ch1{
     display: flex;
@@ -550,7 +550,6 @@ footer .copy a{
 .mal .mal-channels .m-ch1{
     width: 15em;
     height: 15em;
-    margin: 3em 5em;
 }
 .mal .m-ch1 img{
     width: 15em;
