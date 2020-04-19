@@ -534,7 +534,7 @@ footer .copy a{
     font-size: 2.3em;
     text-decoration: underline;
     text-transform: uppercase;
-    margin-left: 3em;
+    text-align: center;
     color: #733380;
     padding: 2px;
 }
