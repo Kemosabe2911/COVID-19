@@ -653,6 +653,9 @@ footer .copy a{
         flex-direction: column;
         padding: 5px;
     }
+    .mal h2{
+        font-size: 1.8em;
+    }
     .mal .mal-channels .m-ch1{
         margin: 1em 0em;
     }
