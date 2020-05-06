@@ -11,7 +11,7 @@ body{
 }
 header{
     margin: 0 ;
-    background-color: #733380;
+    background-color: #530351;
 }
 /*.container .ttle{
     margin: 0;
@@ -61,7 +61,7 @@ header{
     display: block;
 }
 nav{
-    background: #733380;
+    background: #530351;
     padding: 5px 20px;
 }
 nav ul{
@@ -247,7 +247,7 @@ nav a:hover{
     margin-left: 2vh;
 }
 .srch-container #btn:hover{
-    color: #733380;
+    color: #530351;
     background-color: #ffffff;
 }
 
@@ -339,7 +339,7 @@ nav a:hover{
 .abt-h1{
     font-size: 2.5em;
     text-align: center;
-    color: #733380;
+    color: #530351;
     padding-top: 2vh;
     text-transform: uppercase;
 }
@@ -480,7 +480,7 @@ nav a:hover{
 
 /*Footer*/
 footer{
-    background: #733380;
+    background: #530351;
     color: #ffffff;
 }
 footer .contact{
@@ -535,7 +535,7 @@ footer .copy a{
     text-decoration: underline;
     text-transform: uppercase;
     text-align: center;
-    color: #733380;
+    color: #530351;
     padding: 2px;
 }
 .mal .mal-channels{
